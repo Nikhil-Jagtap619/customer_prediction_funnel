@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import nltk
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download("wordnet")
 nltk.download("omw-1.4")
@@ -87,6 +88,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
