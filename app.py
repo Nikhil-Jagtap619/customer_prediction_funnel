@@ -1,5 +1,4 @@
 #topic modeling POC
-!pip install --upgrade pip   
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -84,8 +83,9 @@ def main():
 
 
     # st.write("## Thank you for Visiting \nProject by YourName")
-    # st.markdown("<h1 style='text-align: right; color: #d7e3fc; font-size: small;'><a href='https://github.com/Nikhil-Jagtap619/CRM-NLP-'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
+    # st.markdown("<h1 style='text-align: right; color: #d7e3fc; font-size: small;'><a href='your github repo'>Looking for Source Code?</a></h1>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
-
     main()
+  !pip install --upgrade pip   
+
